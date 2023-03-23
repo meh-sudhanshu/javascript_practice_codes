@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-ctn{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F2F5;
+
+}
+.left{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 150px;
+    gap: 10px;
+}
+.heading{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #1877f2;
+}
+.para{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #1e1e1e;
+}
+.right{
+    width:50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-right: 100px;
+}
+.card{
+    width: 31vw;
+    height: 38vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.username , .password{
+    width: 80%;
+    height: 38px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.username:focus , .password:focus{
+    outline: 1px solid firebrick;
+}
+.login{
+    width: 80%;
+    height: 38px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+.fp{
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.line{
+    width: 80%;
+    height: 1px;
+    background-color: black;
+}
+.signup{
+    width: 40%;
+    height: 38px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+.para2{
+    color: #1e1e1e;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.para2 span{
+    color: #1877f2;
+    cursor: pointer;
+}
+
+
+
+
+

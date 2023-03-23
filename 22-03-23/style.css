@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.main-ctn{
+/* .main-ctn{
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -21,4 +21,13 @@
     width:50vw;
     height: 100vh;
     background-color: green;
+} */
+
+.main-ctn{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
 }
