@@ -100,7 +100,30 @@
     cursor: pointer;
 }
 
+@media only screen and (min-width:400px) and (max-width:800px){
+    .main-ctn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        width: 100vw;
+        height: 50vh;
+    }
+    .right{
+        width: 100vw;
+        height: 50vh;
+        padding: 0;
+        margin-top: -30px;
+    }
+    .card{
+        width: 70%;
+    }
 
-
-
-
+}
