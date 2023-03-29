@@ -20,6 +20,10 @@ console.log(increaseBtn)
 
 function increaseNumber(){
     numberText = Number(numberText)
+    if(numberText === 10){
+        alert("number can not go above 10")
+        return
+    }
     numberText = numberText+1
     numberHeading.innerText = numberText
 
@@ -28,6 +32,10 @@ increaseBtn.addEventListener('click',increaseNumber)
 
 function decreaseNumber(){
     numberText = Number(numberText)
+    if(numberText === -10){
+        alert("number can not go below -10")
+        return
+    }
     numberText = numberText-1
     numberHeading.innerText = numberText
 }
