@@ -7,11 +7,12 @@
 .main-ctn{
     width: 100vw;
     height: 100vh;
-    background-color:#1e1e1e;
+    background-color:#2D2727;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 .increase , .decrease{
     width: 180px;
@@ -43,6 +44,11 @@
 .warning_box{
     width: 45vw;
     height: 45vh;
+    position: absolute;
+    background-color: #8F43EE;
+    color: black;
+    opacity: 0.9;
+    font-family: sans-serif;
 }
 
 .close_btn_ctn{
@@ -51,7 +57,7 @@
     display: flex;
     justify-content: flex-end;
     padding: 25px;
-    background-color: white;
+    
 }
 .warning_ctn{
     width: 100%;
@@ -59,10 +65,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
 }
 .close_btn{
     width: 32px;
     height:32px;
     cursor: pointer;
+}
+
+.hidden{
+    display: none;
 }

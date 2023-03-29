@@ -13,15 +13,18 @@ var numberHeading = document.getElementsByClassName('number')[0]
 var numberText = numberHeading.innerText
 var increaseBtn = document.getElementsByClassName('increase')[0]
 var decreaseBtn = document.getElementsByClassName('decrease')[0]
+var warningBox = document.getElementsByClassName("warning_box")[0]
+var closeBtn = document.getElementsByClassName("close_btn")[0]
 
 console.log(numberHeading)
 console.log(numberText)
 console.log(increaseBtn)
+console.log(warningBox)
 
 function increaseNumber(){
     numberText = Number(numberText)
     if(numberText === 10){
-        alert("number can not go above 10")
+        warningBox.classList.remove("hidden")
         return
     }
     numberText = numberText+1
@@ -33,7 +36,7 @@ increaseBtn.addEventListener('click',increaseNumber)
 function decreaseNumber(){
     numberText = Number(numberText)
     if(numberText === -10){
-        alert("number can not go below -10")
+        warningBox.classList.remove("hidden")
         return
     }
     numberText = numberText-1
@@ -42,3 +45,10 @@ function decreaseNumber(){
 
 
 decreaseBtn.addEventListener('click',decreaseNumber)
+
+
+function closeWarningBoxHandler(){
+    warningBox.classList.add("hidden")
+}
+
+closeBtn.addEventListener("click",closeWarningBoxHandler)
