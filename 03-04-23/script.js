@@ -14,3 +14,19 @@ function scrollHandler(){
 }
 
 window.addEventListener("scroll",scrollHandler)
+
+
+/*
+    oops : inheritance ..............
+    promise
+    async await
+    fetch
+    filter , map ---> array methods
+    closure , lamba expression , execution context.....
+    audio , video , checkbox
+    files....
+    bootstrap
+    tree
+    nav
+
+*/
