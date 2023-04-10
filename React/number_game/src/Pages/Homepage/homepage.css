@@ -1,0 +1,43 @@
+
+
+.main-ctn{
+    width: 100vw;
+    height: 100vh;
+    background-color:#1e1e1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.increase , .decrease{
+    width: 220px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.increase{
+    background-color: green;
+    color: white;
+}
+.decrease{
+    background-color: red;
+    color: white;
+}
+.number{
+    font-family: sans-serif;
+    color: white;
+    font-size: 52px;
+}
+
+.warning{
+    width: 60vw;
+    height: 45vh;
+    background-color: red;
+    position: absolute;
+    opacity: 0.8;
+}
