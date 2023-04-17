@@ -1,0 +1,23 @@
+.navbar{
+    width: 100vw;
+    height: 13vh;
+    background-color: #323237;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 160px;
+    padding-right: 160px;
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%);
+      text-transform: uppercase;
+}
+
+.heading{
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 22px;
+}

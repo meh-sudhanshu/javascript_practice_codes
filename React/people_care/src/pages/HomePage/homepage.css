@@ -1,0 +1,50 @@
+.homepage{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.bottom{
+    width: 100vw;
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left , .right{
+    height: 100%;
+    width: 50%;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.doctor_logo{
+    height: 90%;
+}
+
+.ip{
+    width: 290px;
+    height: 32px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #1e1e1e;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.ip:focus{
+    outline:  none;
+}
+
