@@ -48,3 +48,22 @@
     outline:  none;
 }
 
+.btn{
+    width: 290px;
+    height: 38px;
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.warning{
+    color: #FC2947;
+    font-family: sans-serif;
+    font-size: 12px;
+}
