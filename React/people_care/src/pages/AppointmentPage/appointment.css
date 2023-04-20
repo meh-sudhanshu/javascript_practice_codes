@@ -1,0 +1,12 @@
+.bottom-sec{
+    width: 100vw;
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

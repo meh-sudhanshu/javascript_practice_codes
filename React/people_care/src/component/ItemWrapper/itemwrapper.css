@@ -1,0 +1,34 @@
+.item_wrapper{
+    width: 65vw;
+    height: 15vh;
+    background-color:#f2f2f2;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+
+.appointment_btn{
+    padding: 10px;
+    background-color: #245953;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.message_btn{
+    padding: 10px;
+    background-color: #3F497F;
+    color: #fff;
+    border: none;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.id_ , .doc_name , .doc_speciality{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #1e1e1e;
+}
