@@ -1,0 +1,9 @@
+
+
+.message_box{
+    width: 55vw;
+    height: 60vh;
+    background-color: red;
+    position: absolute;
+    opacity: 0.8;
+}
