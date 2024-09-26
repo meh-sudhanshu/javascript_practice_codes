@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Number Game</title>
-        <style>
-            button{
-                width: 300px;
-                height: 50px;
-                background-color: red;
-                border: none;
-                color: white;
-            }
-        </style>
-    </head>
-    <body>
-        <h1 style="font-size: 100px;font-family: sans-serif;font-weight: 300;">0</h1>
-        <button>Increase</button>
-        <button style="background-color: green;">Decrease</button>
-    </body>
+
+<head>
+    <title>Number Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <style>
+        button {
+            width: 300px;
+            height: 50px;
+            background-color: red;
+            border: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-ctn">
+        <h1 style="font-size: 100px;font-family: sans-serif;font-weight: 300;" id="number">0</h1>
+        <div class="btn-ctn">
+            <button id = "increase-btn">Increase</button>
+            <button style="background-color: green;" id="decrease-btn">Decrease</button>
+        </div>
+    </div>
+</body>
+
 </html>
